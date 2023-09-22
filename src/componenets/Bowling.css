@@ -1,0 +1,62 @@
+.bowling-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  color: #ffffff;
+}
+
+.bowling-heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.bowling-game-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.hand p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.out-message {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.out-message p {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007299;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+button a:hover {
+  color: white;
+}

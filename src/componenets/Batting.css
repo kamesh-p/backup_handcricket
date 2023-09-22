@@ -1,0 +1,70 @@
+.batting-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.batting-heading {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.hand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.hand p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+/* .hand img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+} */
+
+.hand p:last-child {
+  font-weight: bold;
+}
+
+.out-message {
+  background-color: #ff5757;
+  color: black;
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 0.9rem;
+  height: 70px;
+}
+.batting-game-Container {
+  display: flex;
+}
+.hand {
+  padding: 0px 50px;
+}
+.out-message {
+  margin-left: 300px;
+  margin-top: 40px;
+}
+.bat-back {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+}
+.batting-heading {
+  color: white;
+}

@@ -1,0 +1,229 @@
+body {
+  /* background-image: url("YOUR_BACKGROUND_IMAGE_URL"); */
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 90vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px !important;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 60%;
+  margin: auto;
+  background-color: #eaeaea;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.container1 select,
+.container1 input[type="number"] {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.container1 button {
+  margin-top: 10px;
+  padding: 5px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.container1 button:hover {
+  background-color: #45a049;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: #d4d4d4;
+  padding: 20px;
+}
+
+.hand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  /* background-color: #fcca9a; */
+  padding: 20px;
+}
+
+.hand p {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff;
+  background-color: rgb(116, 115, 115);
+  padding: 10px;
+}
+
+.container3 input[type="button"] {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.container3 input[type="button"]:hover {
+  background-color: #0069d9;
+}
+
+.output-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.output-result-choose {
+  display: flex;
+}
+
+.output-result p {
+  margin-bottom: 10px;
+}
+
+.output-result select {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #f8f9fa;
+}
+
+.output-result button {
+  margin-top: 10px;
+  padding: 5px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.output-result button:hover {
+  background-color: #218838;
+}
+
+.lose-button button {
+  margin-top: 10px;
+  padding: 5px 15px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.lose-button button:hover {
+  background-color: #c82333;
+}
+
+.start-btn-lose {
+  margin-top: 10px;
+  padding: 5px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.start-btn-lose:hover {
+  background-color: #007299;
+}
+
+.beg-toss-conTainer {
+  display: flex;
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: rgb(116, 115, 115);
+  padding: 10px;
+}
+
+/* Game-like effect */
+h1:before,
+h1:after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 0;
+  background-color: #ffffff;
+  position: absolute;
+}
+
+h1:before {
+  top: 0;
+  left: 0;
+}
+
+h1:after {
+  bottom: 0;
+  right: 0;
+}
+
+/* Animation */
+@keyframes blink {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+
+h1:after {
+  animation: blink 2s linear infinite;
+}
+select {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #555;
+}
+
+input[type="number"] {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #555;
+}
+
+select:focus,
+input[type="number"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px #007bff;
+}
+
+select option {
+  font-size: 16px;
+}
